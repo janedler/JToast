@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BB000000"
+    android:orientation="vertical"
+    android:padding="10dip">
+
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:shadowColor="#BB000000"
+        android:shadowRadius="2.75"
+        android:text="hello world"
+        android:textColor="@color/bright_foreground_dark"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:shadowColor="#BB000000"
+        android:shadowRadius="2.75"
+        android:text="自定义Toast\n我是按钮"
+        android:textColor="@color/bright_foreground_dark"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <!--android:textAppearance="@style/CFPToastTextAppearance"-->
+
+
+</LinearLayout>
